@@ -1,0 +1,40 @@
+.logo{
+
+height: 100px;
+width: 100px;
+
+}
+
+
+.facebook{
+
+    height: 50px;
+    width: 50px;
+
+}
+
+.instagram{
+
+    height: 50px;
+    width: 50px;
+   
+}
+
+.twitter{
+
+    height: 50px;
+    width: 50px;
+   
+}
+
+.form-control-mr-sm-2{
+
+ width: 500px;
+ border-color: aqua;
+}
+
+.btn-btn-outline-success-my-2-my-sm-0{
+
+    height: 30px;
+    border-color: aqua;
+}

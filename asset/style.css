@@ -38,3 +38,56 @@ width: 100px;
     height: 30px;
     border-color: aqua;
 }
+.godofwar{
+
+
+    height: 500px;
+    width: 1000px;
+    margin-top: 5%;
+    margin-left: 24%;
+    display:block;
+}
+
+.halo{
+    height: 500px;
+    width: 1000px;
+    margin-top: 5%;
+    margin-left: 24%;
+    display:block;
+}
+
+.mario{
+    height: 500px;
+    width: 1000px;
+    margin-top: 5%;
+    margin-left: 24%;
+    display:block;
+}
+
+.card1{
+height: 200px;
+width: 200px;
+margin-left: 60%;
+margin-top: 5%;
+}
+
+
+.card2{
+height: 200px;
+width: 200px;
+margin-top: 5%;
+    }
+.card3{
+height: 200px;
+width: 200px;
+margin-top: 25%;        
+margin-left: 60%;
+
+}
+
+.card4{
+ height: 200px;
+width: 200px;
+margin-top: 25%;            
+
+}

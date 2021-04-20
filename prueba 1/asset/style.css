@@ -1,0 +1,121 @@
+.logo{
+height: 100px;
+width: 100px;
+}
+
+
+.facebook{
+height: 50px;
+width: 50px;
+}
+
+.instagram{
+height: 50px;
+width: 50px;
+}
+
+.twitter{
+height: 50px;
+width: 50px;   
+}
+
+.form-control-mr-sm-2{
+
+width: 500px;
+border-color: aqua;
+}
+
+.btn-btn-outline-success-my-2-my-sm-0{
+height: 30px;
+border-color: aqua;
+}
+.godofwar{
+height: 500px;
+width: 1000px;
+margin-top: 5%;
+margin-left: 24%;
+display:block;
+}
+
+.halo{
+height: 500px;
+width: 1000px;
+margin-top: 5%;
+margin-left: 24%;
+display:block;
+}
+
+.mario{
+ height: 500px;
+width: 1000px;
+margin-top: 5%;
+margin-left: 24%;
+display:block;
+}
+
+.card1{
+height: 200px;
+width: 200px;
+margin-left: 60%;
+margin-top: 5%;
+}
+
+
+.card2{
+height: 200px;
+width: 200px;
+margin-top: 5%;
+margin-left: 20%;
+}
+
+.card3{
+height: 200px;
+width: 200px;
+margin-top: 25%;        
+margin-left: 60%;
+}
+
+.card4{
+ height: 200px;
+width: 200px;
+margin-top: 25%;            
+margin-left: 20%;
+}
+
+h1{
+text-align: center;
+}
+
+.cardd{
+height: 300px;
+width: 300px;
+margin-top: 10%;
+margin-left: 13%;
+}
+
+h2{
+text-align: center;
+margin-top: 60%;
+}
+
+.facebook1{
+
+height: 50px;
+width: 50px;
+margin-top: 20%;
+margin-left: 45%;
+}
+
+.instagram1{
+
+height: 50px;
+width: 50px;
+margin-top: 20%;
+}
+
+.twitter1{
+
+height: 50px;
+width: 50px;
+margin-top: 20%;
+}

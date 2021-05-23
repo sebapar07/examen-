@@ -1,3 +1,6 @@
+
+
+
 .logo{
 height: 100px;
 width: 100px;
@@ -27,7 +30,7 @@ margin-left: auto;
 
 .btn-btn-outline-success-my-2-my-sm-0{
 height: 30px;
-border-color: aqua;
+border-color: #0075d9;
 }
 .godofwar{
     height: 70%;
@@ -129,6 +132,62 @@ margin-top: 60%;
 }
 
 
+* {
+	margin:0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+.wrap {
+	width: 90%;
+	max-width: 1000px;
+	/*margin:auto;*/
+}
+
+.widget {
+	width: 40%;
+	margin: 16px;
+	/*margin:32px; */
+}
+
+.widget p {
+	display: inline-block;
+	line-height: 1em;
+}
+
+.fecha {
+	font-family: Oswald, Arial;
+	text-align: center;
+	font-size: 10px;
+	margin-bottom: 0.3125rem;
+	/*margin-bottom: 5px;*/
+	background: rgba(0,0,0,.5);
+	padding: 2px;
+	width: 50%;
+}
+
+.reloj {
+	font-family: Oswald, Arial;
+	width: 50%;
+	padding: 2px;
+	font-size: 16px;
+	text-align: center;
+	background: rgba(0,0,0,.5);
+}
+
+.reloj .caja-segundos {
+	display: inline-block;
+}
+
+.reloj .segundos,
+.reloj .ampm {
+	font-size: 10px;
+	display: block;
+}
 
 
 

@@ -1,0 +1,194 @@
+
+
+
+.logo{
+height: 100px;
+width: 100px;
+}
+
+
+.facebook{
+height: 50px;
+width: 50px;
+margin-right: auto;
+}
+
+.instagram{
+height: 50px;
+width: 50px;
+margin-left: auto;
+
+}
+
+.twitter{
+height: 50px;
+width: 50px;  
+margin-left: auto;
+}
+
+
+
+.btn-btn-outline-success-my-2-my-sm-0{
+height: 30px;
+border-color: #0075d9;
+}
+.godofwar{
+    height: 70%;
+    width: 70%;
+}
+
+.halo{
+    height: 70%;
+    width: 70%;
+}
+
+.mario{
+    height: 70%;
+    width: 70%;
+
+
+}    
+
+.card1{
+    height: 50%;
+    width: 25%;
+    margin-left: 50%;
+    
+
+
+}
+
+
+.card2{
+    height: 50%;
+    width: 25%;
+    
+
+}
+
+.card3{
+    height: 50%;
+    width: 25%;
+    margin-left: 50%;
+
+}
+
+.card4{
+    height: 50%;
+    width: 25%;
+
+}
+
+h1{
+text-align: center;
+}
+
+.cardd{
+height: 300px;
+width: 300px;
+margin-top: 10%;
+margin-left: 13%;
+}
+
+h2{
+text-align: center;
+margin-top: 60%;
+}
+
+.facebook1{
+
+    height: 50px;
+    width: 50px;
+    margin-left: 15%;
+}
+
+.instagram1{
+
+    height: 50px;
+    width: 50px;
+    margin-left: 10%;
+}
+
+.twitter1{
+
+    height: 50px;
+    width: 50px;
+    margin-left: 10%;
+}
+.cardd{
+    height: 15%;
+    width: 250px;
+ 
+
+}
+.carrito{
+    height: 100%;
+    width: 100%;
+    margin-left: 0.1%;
+}
+.form-inline{
+    height: 100%;
+    width: 200;
+}
+
+
+* {
+	margin:0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+.wrap {
+	width: 90%;
+	max-width: 1000px;
+	/*margin:auto;*/
+}
+
+.widget {
+	width: 40%;
+	margin: 16px;
+	/*margin:32px; */
+}
+
+.widget p {
+	display: inline-block;
+	line-height: 1em;
+}
+
+.fecha {
+	font-family: Oswald, Arial;
+	text-align: center;
+	font-size: 10px;
+	margin-bottom: 0.3125rem;
+	/*margin-bottom: 5px;*/
+	background: rgba(0,0,0,.5);
+	padding: 2px;
+	width: 50%;
+}
+
+.reloj {
+	font-family: Oswald, Arial;
+	width: 50%;
+	padding: 2px;
+	font-size: 16px;
+	text-align: center;
+	background: rgba(0,0,0,.5);
+}
+
+.reloj .caja-segundos {
+	display: inline-block;
+}
+
+.reloj .segundos,
+.reloj .ampm {
+	font-size: 10px;
+	display: block;
+}
+
+
+
+

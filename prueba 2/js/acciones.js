@@ -1,6 +1,5 @@
 class Carrito {
 
-
     comprarProducto(e){
         e.preventDefault();
 
@@ -234,7 +233,35 @@ class Carrito {
         else {
             console.log("click afuera");
         }
+
+        
     }
 
-    
+    filtrar()
+    {
+        const { value } = document.querySelector("#txtBuscar");
+        
+        switch ( value.toLowerCase() )
+        {
+            case "play":
+                location.href = "play.html";    
+            break;
+
+            case "pc":
+                location.href = "pc.html";    
+            break;
+
+            case "xbox":
+                location.href = "xbox.html";    
+            break;
+
+            case "nintendo":
+                location.href = "nintendo.html";
+            break;
+        
+            default:
+                location.href = "index.html";
+            break;
+        }
+    }
 }

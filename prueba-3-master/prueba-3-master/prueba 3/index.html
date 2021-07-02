@@ -1,0 +1,213 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ES_cl">
+
+ <head>
+  
+    <meta charset="utf-8">
+    <meta    
+        name="tienda de juegos"
+    >
+    <link rel="stylesheet" href="asset/style.css">
+    <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" 
+    crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <style>
+      body { background-image: url(https://fondosmil.com/fondo/17538.jpg);}
+    </style>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1">
+    
+ <title>windgames</title>
+ <link rel="icon" type="image/jpg" href="imagenes/logo.png">
+ 
+</head>
+   <body>
+
+    <nav class="navbar navbar-light bg-light">
+        <img class="logo" src="imagenes/logo.png" align=left>
+
+   <di>
+    <a href="https://web.facebook.com/campaign/landing.php?campaign_id=1742494945&extra_1=s%7Cc%7C339353552380%7Ce%7Cfacebook%7C&placement&creative=339353552380&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1742494945%26adgroupid%3D65025596141%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1003325%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQjwpdqDBhCSARIsAEUJ0hOp4n9llemxGM-LkQuKE3Wrx7epVXY90ZuluBZEc1UyUo32K3fIQM4aAjCjEALw_wcB&_rdc=1&_rdr">
+        <img class="facebook" src="imagenes/facebook.png"></a> 
+    <a href="https://www.instagram.com/">
+     <img class="instagram" src="imagenes/instagram.png"></a>    
+    <a href="https://twitter.com/home">
+      <img class="twitter" src="imagenes/twitter.jpg">
+    </a>
+   </di>
+        
+          <div class="fbuscar">
+            <input class="form-control-mr-sm-2" type="Buscar" placeholder="Buscar" aria-label="Buscar" id="txtBuscar">
+            <button class="btn-btn-outline-success-my-2-my-sm-0" id="btnBuscar" type="button">Buscar</button>
+          </div>
+       
+        <li class="nav-item dropdown">
+          <img src="imagenes/cart.png" class="nav-link dropdown-toggle img-fluid" height="70px"
+              width="70px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false"></img>
+          <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+              <table id="lista-carrito" class="table">
+                  <thead>
+                      <tr>
+                          <th>Imagen</th>
+                          <th>Nombre</th>
+                          <th>Precio</th>
+                          <th></th>
+                      </tr>
+                  </thead>
+                  <tbody></tbody>
+              </table>
+
+              <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block "style=background-color:#FF0000  >Vaciar Carrito</a>
+             
+          </div>
+      </li>
+
+      <a href="login.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">INICIAR SESION</a>  
+      
+    </nav>
+  
+    <nav class="navbar-navbar-expand-lg-navbar-light-bg-light">
+    
+    </div>
+    <a href="pc.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">PC</a>
+      </div>
+      <a href="play.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">PLAYSTATION</a>
+      </div>
+      <a href="xbox.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">XBOX</a>
+      </div>
+      <a href="nintendo.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">NINTENDO</a>    
+    </div>
+      </nav>
+
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div align="center"><img src="imagenes/imagenes varias/God-of-War.jpg" class="godofwar"></div>
+          </div>
+          <div class="carousel-item">
+            <div align="center"><img src="imagenes/imagenes varias/halo.jpg" class="halo"></div>
+          </div>
+          <div class="carousel-item">
+            <div align="center"><img src="imagenes/imagenes varias/mario bross.jpg" class="mario"></div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<h2>JUEGOS DESTACADOS</h2>
+<div class="container" id="lista-productos">
+            
+  <div class="card-deck mb-3 text-center">
+      
+      <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+              <h4 class="my-0 font-weight-bold">CALL OF DUTY COLD WAR</h4>
+          </div>
+          <div class="card-body">
+              <img src="imagenes/imagenes varias/juegos play/shooter/call-of-duty-coldwar.jpg" class="card-img-top">
+              <h1 class="card-title pricing-card-title precio"> <span class="">$44990</span></h1>
+
+              <ul class="list-unstyled mt-3 mb-4">
+                  <li></li>
+                  <li>JUEGO SHOOTER</li>                
+              </ul>
+              <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+          </div>
+      </div>
+
+      <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+              <h4 class="my-0 font-weight-bold">FIFA 21 </h4>
+          </div>
+          <div class="card-body">
+              <img src="imagenes/imagenes varias/juegos pc/deporte/fifa_21_pc_en_cover.jpg" class="card-img-top">
+              <h1 class="card-title pricing-card-title precio"><span class="">$39990</span></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                  <li></li>
+                  <li>JUEGO DE DEPORTE</li>
+              </ul>
+              <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="2">Comprar</a>
+          </div>
+      </div>
+      <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+              <h4 class="my-0 font-weight-bold">RESIDENT EVIL 7</h4>
+          </div>
+          <div class="card-body">
+              <img src="imagenes/imagenes varias/juegos play/terror/resident-evil-7.jpg" class="card-img-top">
+              <h1 class="card-title pricing-card-title precio"> <span class="">$29990</span></h1>
+
+              <ul class="list-unstyled mt-3 mb-4">
+                  <li></li>
+                  <li>JUEGO DE TERROR</li>      
+              </ul>
+              <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="3">Comprar</a>
+          </div>
+      </div>
+  </div>
+  </div>
+    <footer>
+      <di>
+        <a href="https://web.facebook.com/campaign/landing.php?campaign_id=1742494945&extra_1=s%7Cc%7C339353552380%7Ce%7Cfacebook%7C&placement&creative=339353552380&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1742494945%26adgroupid%3D65025596141%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1003325%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQjwpdqDBhCSARIsAEUJ0hOp4n9llemxGM-LkQuKE3Wrx7epVXY90ZuluBZEc1UyUo32K3fIQM4aAjCjEALw_wcB&_rdc=1&_rdr">
+            <img class="facebook1" src="imagenes/facebook.png"></a> 
+        <a href="https://www.instagram.com/">
+         <img class="instagram1" src="imagenes/instagram.png"></a>    
+        <a href="https://twitter.com/home">
+          <img class="twitter1" src="imagenes/twitter.jpg">
+        </a>
+       </di>
+      </footer>
+      <div class="wrap">
+        <div class="widget" >
+          <div class="fecha">
+            <p id="diaSemana" class="diaSemana" style="color:white";>Martes</p>
+            <p id="dia" class="dia" style="color:white";>27</p>
+            <p style="color:white";>de </p>
+            <p id="mes" class="mes" style="color:white";>Octubre</p>
+            <p style="color:white";>del </p>
+            <p id="year" class="year" style="color:white";>2015</p>
+          </div>
+      
+          <div class="reloj">
+            <p id="horas" class="horas" style="color:white";>11</p>
+            <p style="color:white";>:</p>
+            <p id="minutos" class="minutos" style="color:white";>48</p>
+            <p style="color:white";>:</p>
+            <div class="caja-segundos">
+              
+              <p id="segundos" class="segundos" style="color:white";>12</p>
+              <p id="ampm" class="ampm" style="color:white";>AM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="js/acciones.js"></script>
+      <script src ="js/reloj.js"></script>
+      <script src= "js/pedido.js"></script>
+
+    {% block main %}
+
+    {% endblock main %}
+
+   </body>
+   </html>

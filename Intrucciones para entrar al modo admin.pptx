@@ -1,0 +1,11 @@
+ingresar al modo admin: iniciar el servidor con el comando python manage.py runserver
+luego ingresar a la url /admin para ingresar a la vista admin ingresando el usuario:duoc y contraseña:Contraseña123
+(este usuario cuenta con todos los privilegios de la pagina)
+tambien cuenta con otros usuarios con distintos privilegios los cuales son:
+usuario:alexander
+contraseña:simondice
+(este usuario puede ver el listado y editar los productos)
+
+usuario:monicaxd
+contraseña:gatoperro
+(esta usuario puede agregar productos)
